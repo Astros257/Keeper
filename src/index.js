@@ -12,6 +12,7 @@
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
 import React from "react";
 import ReactDom from "react-dom";
-import App from "./App";
+import App from "./components/App";//since index.js is outside of the components folder we must specify the
+//components folder first in the file extension since the app.jsx is located inside of it.
 
 ReactDom.render(<App />, document.getElementById("root"));
